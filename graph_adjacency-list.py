@@ -7,7 +7,7 @@ class Vertex:
 	def add_neighbor(self, v):
 		if v not in self.neighbors:
 			self.neighbors.append(v)
-			self.neighbors.sort() # Python list.sort() sorts alphabetically
+			self.neighbors.sort() # Python list.sort() sorts alphabetically if no params to sort otherwise.
 
 class Graph:
 	vertices = {}
